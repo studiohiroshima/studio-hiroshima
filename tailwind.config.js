@@ -12,6 +12,9 @@ module.exports = {
       },
       fontFamily: {
         lineto: ["--var(-font-lineto)"]
+      },
+      fontSize: {
+        xxl: '22px'
       }
     },
   },

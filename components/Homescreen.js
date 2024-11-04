@@ -3,34 +3,34 @@ import { motion } from 'framer-motion';
 
 const Homescreen = () => {
   return (
-    <motion.section className="px-12 max-sm:px-6 font-lineto"
+    <motion.section className="sm:px-6 lg:px-10 max-sm:px-4 lg:w-2/3 xl:w-3/4"
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
     transition={{duration: 2}}
     >
     {/*br tags included to give more spacing based on different devices */}
-      <p className="max-sm:hidden"><br/><br/><br/><br /><br/></p>
-      <p className="max-sm:visible sm:hidden"><br/><br/><br/><br/><br/></p>
+      <p className="max-sm:hidden"><br/><br/><br/><br /></p>
+      <p className="max-sm:visible sm:hidden mb-4"><br/><br/><br/></p>
 
-        <p className="font-lineto text-3xl w-9/12 tracking-wide leading-10 font-normal text-pretty">Paris based studio specializing in production, publishing and artists representation. Studio Hiroshima is dedicated in bringing visionary projects to life and provides comprehensive support to artists in the arts and entertainment industry</p><br/>
-        <section  id='contact' className="flex justify-between w-9/12 mt-11 text-lg max-sm:flex-col max-sm:gap-8 max-sm:mt-16">
-          <div className="font-light font-lineto">
-          <p className="text-xl tracking-wide mb-4 font-medium font-lineto">PARIS</p>
-            <p className="home-text">39 Rue du Borrégo</p>
-            <p className="home-text">75020 Paris</p>
-            <p className="home-text">+33 6 70 35 26 76</p>
-            <p className="home-text">hello@studiohiroshima.fr</p>
+        <p className="inter-normal max-sm:text-xxl max-sm:leading-7 max-sm:w-12/13 max-sm:text-wrap text-3xl w-2/3 tracking-normal leading-10 text-pretty sm:w-10/12">Paris based studio specializing in production, publishing and artists representation. Studio Hiroshima is dedicated in bringing visionary projects to life and provides comprehensive support to artists in the arts and entertainment industry</p>
+        <section  id='contact' className="flex justify-between lg:w-9/12 xl:w-10/12 mt-11 text-lg max-lg:flex-col max-sm:gap-8 max-sm:mt-8 max-lg:gap-10">
+          <div className="">
+          <p className="text-lg tracking-wide mb-4 roboto-light xl:text-base xl:font-normal max-sm:font-normal">PARIS</p>
+            <p className="home-text xl:font-normal max-sm:font-normal">39 Rue du Borrégo</p>
+            <p className="home-text xl:font-normal max-sm:font-normal">75020 Paris</p>
+            <p className="home-text xl:font-normal max-sm:font-normal">+33 6 70 35 26 76</p>
+            <p className="text-lg subpixel-antialiased poppins-light xl:font-normal max-sm:font-normal">hello@studiohiroshima.fr</p>
             <div className="mt-6">
-              <p className="capitalize text-xl font-normal">Agent</p>
-              <p className="capitalize text-2xl poppins-light tracking-wider underline  mt-2">
+              <p className="max-sm:text-lg text-xl roboto-light xl:text-base xl:font-normal max-sm:font-normal">AGENT</p>
+              <p className="capitalize text-base roboto-regular tracking-wider underline underline-offset-2 max-sm:mt-1 mt-2 xl:text-lg xl:font-medium max-sm:font-normal">
               <a href="https://www.linkedin.com/in/shivfr/?locale=en_US" target="_blank">
               Edwin Bes</a>
               </p>
             </div>
           </div>
           <div>
-            <p className="text-xl tracking-wide mb-4 font-campton font-medium ">LINKEDIN</p>
-            <p className="text-xl poppins-light">@studio-hiroshima</p>
+            <p className="max-sm:text-base text-xl tracking-widest max-sm:mb-1 mb-4 roboto-light max-sm:text-balance xl:text-base xl:font-normal max-sm:font-normal">LINKEDIN</p>
+            <p className="text-base roboto-light xl:font-normal xl:text-lg max-sm:font-normal">@studio-hiroshima</p>
           </div>
         </section>
         <br /><br /><br />
