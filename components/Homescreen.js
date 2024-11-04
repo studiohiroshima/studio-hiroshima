@@ -10,7 +10,7 @@ const Homescreen = () => {
     >
     {/*br tags included to give more spacing based on different devices */}
       <p className="max-sm:hidden"><br/><br/><br/><br /><br/></p>
-      <p className="max-sm:visible sm:hidden"><br/><br/><br/></p>
+      <p className="max-sm:visible sm:hidden"><br/><br/><br/><br/><br/></p>
 
         <p className="font-lineto text-3xl w-9/12 tracking-wide leading-10 font-normal text-pretty">Paris based studio specializing in production, publishing and artists representation. Studio Hiroshima is dedicated in bringing visionary projects to life and provides comprehensive support to artists in the arts and entertainment industry</p><br/>
         <section  id='contact' className="flex justify-between w-9/12 mt-11 text-lg max-sm:flex-col max-sm:gap-8 max-sm:mt-16">
