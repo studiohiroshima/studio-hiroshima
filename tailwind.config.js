@@ -7,10 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      width: {
+        '12/13': '95%'
       },
+      fontFamily: {
+        lineto: ["--var(-font-lineto)"]
+      }
     },
   },
   plugins: [],
