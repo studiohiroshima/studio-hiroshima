@@ -265,3 +265,6 @@
   @apply capitalize text-lg subpixel-antialiased poppins-light
 }
 
+html {
+  @apply bg-whitish
+}

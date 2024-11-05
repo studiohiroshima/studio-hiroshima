@@ -15,6 +15,9 @@ module.exports = {
       },
       fontSize: {
         xxl: '22px'
+      },
+      colors: {
+        'whitish': '#f8f9fa'
       }
     },
   },
