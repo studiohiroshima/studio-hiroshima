@@ -17,7 +17,8 @@ module.exports = {
         xxl: '22px'
       },
       colors: {
-        'whitish': '#f8f9fa'
+        'whitish': '#f8f9fa',
+        'black-30': '#0000004D'
       }
     },
   },

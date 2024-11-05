@@ -262,7 +262,7 @@
 }
 
 .home-text {
-  @apply capitalize text-lg subpixel-antialiased poppins-light
+  @apply capitalize text-xl subpixel-antialiased poppins-light
 }
 
 html {

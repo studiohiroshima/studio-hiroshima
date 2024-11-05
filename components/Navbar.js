@@ -14,12 +14,13 @@ const Navbar = () => {
   return (
     <nav className='mb-12 fixed z-10 w-full  max-sm:mx-auto bg-opacity-100 bg-whitish'>
       <div className='flex justify-between w-12/13 mx-auto py-8 items-center max-sm:w-11/12 max-md:items-start max-md:mt-2'>
-        <div><Image src='/img/nav-logo.png' alt='logo' width={212} height={212}
-          priority
+        <div className=''><Image src='/img/nav-logo.png' alt='logo' width={255} height={255}
+          priority className='object-cover w-full h-auto'
         /></div>
-        <ul className='flex max-md:flex-col gap-4 max-md:items-end'>
+        <ul className='flex max-md:flex-col gap-10 max-md:items-end'>
         <li className='inter-thin text-base tracking-widest subpixel-antialiased  max-sm:text-sm visible md:hidden cursor-pointer' onClick={handleClick}>{showMenu ? 'CLOSE' : 'MENU'}</li>
 
+    {/* Mobile Device*/}
         {showMenu &&
         <motion.ul
         initial={{opacity: 0, y: -1000}}
@@ -28,14 +29,15 @@ const Navbar = () => {
         whileInView={{opacity: 1}}
         exit={{opacity: 0}}
 
-        className='flex flex-col gap-5 mt-8 max-md:items-end max-md:visible md:hidden'>
-        <li className='inter-thin text-base tracking-widest subpixel-antialiased  max-sm:text-sm '><a href='#contact'>ABOUT</a></li>
+        className='flex flex-col gap-8 mt-8 max-md:items-end max-md:visible md:hidden'>
+        <li className='inter-thin text-base tracking-widest subpixel-antialiased  max-sm:text-sm text-black-30'>STUDIO HIROSHIMA</li>
         <li className='inter-thin text-base tracking-widest subpixel-antialiased  max-sm:text-sm '><a href='#contact'>CONTACT</a></li>
         </motion.ul>
         }
+    {/* Mobile Device*/}
 
         <li className='inter-thin text-base tracking-widest subpixel-antialiased max-sm:font-medium max-sm:text-sm max-md:hidden md:visible'><a href='#contact'>CONTACT</a></li>
-        <li className='inter-thin text-base tracking-widest subpixel-antialiased max-sm:font-medium max-sm:text-sm max-md:hidden md:visible'><a href='#contact'>ABOUT</a></li>
+        <li className='inter-thin text-base tracking-widest subpixel-antialiased max-sm:font-medium max-sm:text-sm max-md:hidden md:visible text-black-30'>STUDIO HIROSHIMA</li>
         
         </ul>
       </div>
