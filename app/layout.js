@@ -70,6 +70,9 @@ const lineto = localFont({
 export const metadata = {
   title: "Studio Hiroshima",
   description: "Paris based studio specializing in production",
+  icons: {
+    icon: '/assets/images/favicon.png'
+  }
 };
 
 export default function RootLayout({ children }) {
