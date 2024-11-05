@@ -12,7 +12,7 @@ const Navbar = () => {
     setShowMenu(!showMenu)
   }
   return (
-    <nav className='mb-12 fixed z-10 w-full  max-sm:mx-auto bg-opacity-100'>
+    <nav className='mb-12 fixed z-10 w-full  max-sm:mx-auto bg-opacity-100 bg-whitish'>
       <div className='flex justify-between w-12/13 mx-auto py-8 items-center max-sm:w-11/12 max-md:items-start max-md:mt-2'>
         <div><Image src='/img/nav-logo.png' alt='logo' width={212} height={212}
           priority
