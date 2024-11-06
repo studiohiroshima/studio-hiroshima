@@ -14,11 +14,15 @@ module.exports = {
         lineto: ["--var(-font-lineto)"]
       },
       fontSize: {
-        xxl: '22px'
+        xxl: '22px',
+        xv: '17px'
       },
       colors: {
         'whitish': '#f8f9fa',
         'black-30': '#0000004D'
+      },
+      margin: {
+        '55': '2.5px'
       }
     },
   },
