@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className='mb-12 fixed z-10 w-full  max-sm:mx-auto bg-opacity-100 bg-transparent'>
       <div className='flex justify-between w-12/13 mx-auto py-3 items-center max-sm:w-11/12 max-md:items-start max-md:mt-2'>
         <div className='max-sm:w-4/6 max-sm:-ml-4 sm:-ml-6 md:-ml-6 lg:-ml-5 xl:-ml-6 2xl:-ml-8'><Image src='/img/logo.png' alt='logo' width={270} height={270}
-          priority className='object-cover w-full h-auto'
+          priority quality={100} className='object-cover w-full h-auto'
         /></div>
         <ul className='flex max-md:flex-col gap-10 max-md:items-end max-md:w-2/6 max-md:gap-0 max-md:justify-center max-md:-mt-55'>
         <li className='inter-thin text-base tracking-widest subpixel-antialiased visible md:hidden cursor-pointer max-sm:pt-3 max-md:pt-5 max-md:text-[16.6px] max-sm:text-[15px]' onClick={handleClick}>{showMenu ? 'CLOSE' : 'MENU'}</li>

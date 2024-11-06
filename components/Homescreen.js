@@ -19,7 +19,7 @@ const Homescreen = () => {
           <p className="text-lg tracking-wide mb-4 roboto-light xl:text-lg">PARIS</p>
           <div className='space-y-2'>
             <p className="home-text">39 Rue du Borrégo</p>
-            <p className="home-text ">75020 Paris</p>
+            <p className="home-text ">75020</p>
             <p className="home-text">+33 6 70 35 26 76</p>
             <p className="text-xl subpixel-antialiased poppins-light">hello@studiohiroshima.fr</p></div>
             <div className="mt-10 space-y-2">
