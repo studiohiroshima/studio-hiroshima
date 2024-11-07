@@ -12,7 +12,7 @@ const Navbar = () => {
     setShowMenu(!showMenu)
   }
   return (
-    <nav className='mb-12 fixed z-10 w-full  max-sm:mx-auto bg-opacity-100 bg-transparent'>
+    <nav className='mb-12 fixed z-10 w-full  max-sm:mx-auto bg-opacity-100 bg-whitish md:bg-transparent'>
       <div className='flex justify-between w-12/13 mx-auto py-3 items-center max-sm:w-11/12 max-md:items-start max-md:mt-2'>
         <div className='max-sm:w-4/6 max-sm:-ml-4 sm:-ml-6 md:-ml-6 lg:-ml-5 xl:-ml-6 2xl:-ml-8'><Image src='/img/logo.png' alt='logo' width={270} height={270}
           priority quality={100} className='object-cover w-full h-auto'
