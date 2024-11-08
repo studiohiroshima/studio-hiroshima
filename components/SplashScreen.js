@@ -11,7 +11,7 @@ export default function SplashScreen({ onVideoEnd }) {
       video.addEventListener("ended", onVideoEnd);
     }
 
-    // Cleanup event listener when component unmounts
+    // Cleanup Func when component unmounts
     return () => {
       if (video) {
         video.removeEventListener("ended", onVideoEnd);
