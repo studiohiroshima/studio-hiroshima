@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className='mb-12 fixed w-full mx-auto bg-opacity-100 bg-whitish md:bg-transparent'>
       <div className='flex justify-between py-3 items-center max-md:items-start max-md:mt-2 mx-auto w-[92vw] max-md:w-[90vw] max-sm:w-[92vw]'>
-        <div className='max-sm:w-4/6 sm:-ml-0 md:ml-2 max-sm:hidden'><Image src='/img/logo.png' alt='logo' width={254} height={254}
+        <div className='max-sm:w-4/6 sm:-ml-0 md:ml-3 max-sm:hidden'><Image src='/img/logo.png' alt='logo' width={254} height={254}
           priority quality={100} className='object-cover h-auto w-full'
         /></div>
         <div className='max-sm:visible sm:hidden'><Image src='/img/logo.png' alt='logo' width={225} height={225}
