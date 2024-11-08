@@ -26,11 +26,11 @@ export default function Home() {
     {showSplash ? (
       <SplashScreen onVideoEnd={handleVideoEnd} />
     ) : (
-      <>
+      <div className="">
         {/* Main Home Page Content */}
         <Homescreen />
         
-      </>
+      </div>
     )}
   </div>
   );
