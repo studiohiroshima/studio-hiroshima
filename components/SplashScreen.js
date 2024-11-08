@@ -23,7 +23,7 @@ export default function SplashScreen({ onVideoEnd }) {
     <div className="fixed inset-0 flex items-center justify-center bg-white z-50">
       <video
         ref={videoRef}
-        src="/video/logo-hiroshima.mp4" // source to video file
+        src="/video/logo-hiroshima.mp4"
         autoPlay
         muted
         className="w-full h-auto max-w-full object-cover aspect-video"
