@@ -23,7 +23,7 @@ const Homescreen = () => {
             <div className="mt-10 space-y-2">
               <p className="text-lg tracking-wide mb-4 roboto-light xl:text-lg">AGENT</p>
               <p className="home-text underline underline-offset-2">
-              <a href='edwin@studiohiroshima.fr' target='_blank'>
+              <a href='mailto:edwin@studiohiroshima.fr' target='_blank'>
               Edwin Bes
               </a>
               </p>
